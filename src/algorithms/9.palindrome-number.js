@@ -1,5 +1,5 @@
 // @author : zy
-// @date   : 2018-MONTH-DAY
+// @date   : 2019-01-08
 // @source : https://leetcode.com/problems/palindrome-number/
 
 /**

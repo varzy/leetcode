@@ -1,5 +1,5 @@
 // @author : zy
-// @date   : 2018-MONTH-DAY
+// @date   : 2019-MONTH-DAY
 // @source : https://leetcode.com/problems/roman-to-integer/
 
 /**
@@ -17,10 +17,17 @@ var romanToInt = function (s) {
     M: 1000
   }
 
-  return s
-    .split('')
-    .reverse()
-    .reduce((sum, item) => sum + control[item], 0)
+  let sum = 0
+  for (let i = 1; i < s.length; i++) {
+    // 前面数字大于后面
+    if (control[s[i]] < control[s[i - 1]]) {
+      sum += control[s[i - 1]]
+    } else {
+      sum -= control[s[i - 1]]
+    }
+  }
+
+  return sum
 }
 
-console.log(romanToInt('MCMXCVI'))
+console.log(romanToInt('MCMXCIV'))
