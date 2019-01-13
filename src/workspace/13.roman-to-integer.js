@@ -17,16 +17,13 @@ var romanToInt = function (s) {
   }
 
   let sum = 0
-  for (let i = 1; i < s.length; i++) {
-    // 前面数字大于后面
-    if (control[s[i]] < control[s[i - 1]]) {
-      sum += control[s[i - 1]]
-    } else {
-      sum -= control[s[i - 1]]
-    }
-  }
 
-  return sum
+  // for (let i = 1; i < s; i++) {
+  //   const isSpecial = s[i] === 'I' && (s[i - 1] === 'V' || s[i - 1] === 'X')
+  //   if (s[i - 1])
+  // }
+
+  return control
 }
 
 console.log(romanToInt('MCMXCIV'))
