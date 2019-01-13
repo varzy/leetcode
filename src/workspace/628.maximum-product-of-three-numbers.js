@@ -1,3 +1,7 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var maximumProduct = function (nums) {
   let arr = nums.sort((a, b) => b - a)
   let result = 1

@@ -1,7 +1,3 @@
-// @author : zy
-// @date   : 2019-MONTH-DAY
-// @source : https://leetcode.com/problems/power-of-two/
-
 /**
  * @param {number} n
  * @return {boolean}

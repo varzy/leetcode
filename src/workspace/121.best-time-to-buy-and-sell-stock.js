@@ -1,8 +1,7 @@
 /**
- * 需要搞清楚原理
- * @param {*} prices
+ * @param {number[]} prices
+ * @return {number}
  */
-
 var maxProfit = function (prices) {
   let min = Infinity
   let result = 0

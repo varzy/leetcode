@@ -1,7 +1,3 @@
-// @author : zy
-// @date   : 2019-MONTH-DAY
-// @source : https://leetcode.com/problems/PROBLEM_NAME/
-
 /**
  * @param {string} num1
  * @param {string} num2

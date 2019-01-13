@@ -1,7 +1,3 @@
-// @author : zy
-// @date   : 2019-03-14
-// @source : https://leetcode.com/problems/intersection-of-two-arrays-ii/
-
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2

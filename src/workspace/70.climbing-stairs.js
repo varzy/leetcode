@@ -1,3 +1,7 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
 var climbStairs = function (n) {
   const m1 = 1
   const m2 = 2
