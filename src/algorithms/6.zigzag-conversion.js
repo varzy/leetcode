@@ -32,5 +32,3 @@ var convert = function (s, numRows) {
 
   return table.map(row => row.filter(item => item).join('')).join('')
 }
-
-console.log(convert('ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI', 6))
