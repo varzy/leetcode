@@ -1,3 +1,6 @@
+// Source: https://leetcode.com/problems/power-of-two/
+// Updated At: YEAR-MONTH-DAY
+
 /**
  * @param {number} n
  * @return {boolean}

@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-03-14
-// @source : https://leetcode.com/problems/intersection-of-two-arrays/
+// Source: https://leetcode.com/problems/intersection-of-two-arrays/
+// Updated At: 2018-03-14
 
 /**
  * @param {number[]} nums1

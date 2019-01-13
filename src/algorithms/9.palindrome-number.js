@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2019-01-08
-// @source : https://leetcode.com/problems/palindrome-number/
+// Source: https://leetcode.com/problems/palindrome-number/
+// Updated At: 2019-01-08
 
 /**
  * 将数字转为字符串，从中间进行分割。将左半边和右半边的反转结果进行比较

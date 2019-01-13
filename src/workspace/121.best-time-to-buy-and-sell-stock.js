@@ -1,3 +1,6 @@
+// Source: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// Updated At: YEAR-MONTH-DAY
+
 /**
  * @param {number[]} prices
  * @return {number}

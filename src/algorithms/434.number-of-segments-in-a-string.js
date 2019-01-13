@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-03-14
-// @source : https://leetcode.com/problems/number-of-segments-in-a-string/
+// Source: https://leetcode.com/problems/number-of-segments-in-a-string/
+// Updated At: 2018-03-14
 
 /**
  * @param {string} s

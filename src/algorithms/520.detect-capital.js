@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-03-14
-// @source : https://leetcode.com/problems/detect-capital/
+// Source: https://leetcode.com/problems/detect-capital/
+// Updated At: 2018-03-14
 
 /**
  * @param {string} word

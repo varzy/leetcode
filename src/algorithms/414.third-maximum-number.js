@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-03-14
-// @source : https://leetcode.com/problems/third-maximum-number/
+// Source: https://leetcode.com/problems/third-maximum-number/
+// Updated At: 2018-03-14
 
 /**
  * @param {number[]} nums

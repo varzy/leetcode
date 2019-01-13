@@ -1,3 +1,6 @@
+// Source: https://leetcode.com/problems/sum-of-square-numbers/
+// Updated At: YEAR-MONTH-DAY
+
 /**
  * @param {number} c
  * @return {boolean}

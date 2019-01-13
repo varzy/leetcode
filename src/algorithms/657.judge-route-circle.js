@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/judge-route-circle/
+// Source: https://leetcode.com/problems/judge-route-circle/
+// Updated At: 2018-02-28
 
 /**
  * @param {string} moves

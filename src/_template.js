@@ -1,5 +1,6 @@
-// @author : zy
-// @date   : YEAR-MONTH-DAY
-// @source : https://leetcode.com/problems/PROBLEM_NAME/
+// Source: https://leetcode.com/problems/PROBLEM_NAME/
+// Updated At: YEAR-MONTH-DAY
+
+// workspace
 
 console.log()

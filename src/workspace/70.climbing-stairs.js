@@ -1,3 +1,6 @@
+// Source: https://leetcode.com/problems/climbing-stairs/
+// Updated At: YEAR-MONTH-DAY
+
 /**
  * @param {number} n
  * @return {number}

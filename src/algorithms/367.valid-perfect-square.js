@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/valid-perfect-square/
+// Source: https://leetcode.com/problems/valid-perfect-square/
+// Updated At: 2018-02-28
 
 /**
  * @param {number} num

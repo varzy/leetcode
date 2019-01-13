@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/missing-number/
+// Source: https://leetcode.com/problems/missing-number/
+// Updated At: 2018-02-28
 
 /**
  * @param {number[]} nums

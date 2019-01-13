@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-12
-// @source : https://leetcode.com/problems/length-of-last-word/
+// Source: https://leetcode.com/problems/length-of-last-word/
+// Updated At: 2018-02-12
 
 /**
  * @param {string} s

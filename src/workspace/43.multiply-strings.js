@@ -1,3 +1,6 @@
+// Source: https://leetcode.com/problems/multiply-strings/
+// Updated At: YEAR-MONTH-DAY
+
 /**
  * @param {string} num1
  * @param {string} num2

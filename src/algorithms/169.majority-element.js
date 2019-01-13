@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-24
-// @source : https://leetcode.com/problems/majority-element/
+// Source: https://leetcode.com/problems/majority-element/
+// Updated At: 2018-02-24
 
 /**
  * @param {number[]} nums

@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/number-of-1-bits/
+// Source: https://leetcode.com/problems/number-of-1-bits/
+// Updated At: 2018-02-28
 
 /**
  * @param {number} n - a positive integer

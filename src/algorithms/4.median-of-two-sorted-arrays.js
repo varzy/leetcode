@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/median-of-two-sorted-arrays/
+// Source: https://leetcode.com/problems/median-of-two-sorted-arrays/
+// Updated At: 2018-02-28
 
 /**
  * @param {number[]} nums1

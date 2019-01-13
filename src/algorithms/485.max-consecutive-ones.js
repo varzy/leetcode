@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-23
-// @source : https://leetcode.com/problems/max-consecutive-ones/
+// Source: https://leetcode.com/problems/max-consecutive-ones/
+// Updated At: 2018-02-23
 
 /**
  * @param {number[]} nums

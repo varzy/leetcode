@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-12
-// @source : https://leetcode.com/problems/reverse-integer/
+// Source: https://leetcode.com/problems/reverse-integer/
+// Updated At: 2018-02-12
 
 /**
  * @param {number} x

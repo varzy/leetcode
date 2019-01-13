@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-28
-// @source : https://leetcode.com/problems/contains-duplicate-ii/
+// Source: https://leetcode.com/problems/contains-duplicate-ii/
+// Updated At: 2018-02-28
 
 /**
  * @param {number[]} nums

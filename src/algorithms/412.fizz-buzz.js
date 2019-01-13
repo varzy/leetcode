@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-23
-// @source : https://leetcode.com/problems/fizz-buzz/
+// Source: https://leetcode.com/problems/fizz-buzz/
+// Updated At: 2018-02-23
 
 /**
  * @param {number} n

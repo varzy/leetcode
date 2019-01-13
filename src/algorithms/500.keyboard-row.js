@@ -1,6 +1,5 @@
-// @author : zy
-// @date   : 2018-02-24
-// @source : https://leetcode.com/problems/keyboard-row/
+// Source: https://leetcode.com/problems/keyboard-row/
+// Updated At: 2018-02-24
 
 /**
  * @param {string[]} words
