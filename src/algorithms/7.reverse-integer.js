@@ -13,5 +13,6 @@ var reverse = function(x) {
       .split('')
       .reverse()
       .join('');
+
   return Math.abs(res) > Math.pow(2, 31) - 1 ? 0 : res;
 };

@@ -10,5 +10,6 @@ var missingNumber = function(nums) {
   for (let i = 0; i < sortedArr.length; i++) {
     if (sortedArr[i] !== i) return i;
   }
+
   return nums.length;
 };

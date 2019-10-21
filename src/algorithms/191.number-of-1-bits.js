@@ -11,5 +11,6 @@ var hammingWeight = function(n) {
   for (let i = 0; i < binary.length; i++) {
     if (+binary[i] === 1) count++;
   }
+
   return count;
 };

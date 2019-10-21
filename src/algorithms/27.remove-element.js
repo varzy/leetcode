@@ -13,5 +13,6 @@ var removeElement = function(nums, val) {
       i--;
     }
   }
+
   return nums.length;
 };

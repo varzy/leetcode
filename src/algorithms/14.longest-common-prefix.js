@@ -18,6 +18,7 @@ var longestCommonPrefix = function(strs) {
       common = getPrefix(common, strs[i]);
     }
   }
+
   return common;
 };
 
@@ -43,5 +44,6 @@ const getPrefix = (s1, s2) => {
       break;
     }
   }
+
   return common.join('');
 };

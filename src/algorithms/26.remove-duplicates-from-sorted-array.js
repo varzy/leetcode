@@ -16,5 +16,6 @@ var removeDuplicates = function(nums) {
   }
 
   nums.shift();
+
   return nums.length;
 };

@@ -28,5 +28,3 @@ var isPalindrome = function(x) {
       .join('')
   );
 };
-
-console.log(isPalindrome(-12321));
