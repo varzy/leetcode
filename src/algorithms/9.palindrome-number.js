@@ -7,14 +7,18 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function (x) {
-  if (x < 0) return false
+var isPalindrome = function(x) {
+  if (x < 0) return false;
 
-  const sx = x + ''
+  const sx = x + '';
 
-  const isEven = sx.length % 2 === 0
-  const left = isEven ? sx.slice(0, sx.length / 2) : sx.slice(0, (sx.length - 1) / 2)
-  const right = isEven ? sx.slice(sx.length / 2) : sx.slice((sx.length + 1) / 2)
+  const isEven = sx.length % 2 === 0;
+  const left = isEven
+    ? sx.slice(0, sx.length / 2)
+    : sx.slice(0, (sx.length - 1) / 2);
+  const right = isEven
+    ? sx.slice(sx.length / 2)
+    : sx.slice((sx.length + 1) / 2);
 
   return (
     left ===
@@ -22,7 +26,7 @@ var isPalindrome = function (x) {
       .split('')
       .reverse()
       .join('')
-  )
-}
+  );
+};
 
-console.log(isPalindrome(-12321))
+console.log(isPalindrome(-12321));

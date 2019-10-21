@@ -5,12 +5,12 @@
  * @param {string} s
  * @return {number}
  */
-var countSegments = function (s) {
-  const arr = s.split(' ')
-  let final = []
+var countSegments = function(s) {
+  const arr = s.split(' ');
+  let final = [];
   arr.map(item => {
-    if (item !== '') final.push(item)
-  })
+    if (item !== '') final.push(item);
+  });
 
-  return final.length
-}
+  return final.length;
+};

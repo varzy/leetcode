@@ -5,17 +5,17 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var moveZeroes = function (nums) {
-  let indexs = []
+var moveZeroes = function(nums) {
+  let indexs = [];
 
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] === 0) {
-      indexs.push(i)
+      indexs.push(i);
     }
   }
 
   for (let i = 0; i < indexs.length; i++) {
-    nums.splice(indexs[i] - i, 1)
-    nums.push(0)
+    nums.splice(indexs[i] - i, 1);
+    nums.push(0);
   }
-}
+};

@@ -7,16 +7,16 @@
  * @param {number} t
  * @return {boolean}
  */
-var containsNearbyAlmostDuplicate = function (nums, k, t) {
-  const lenNums = nums.length
+var containsNearbyAlmostDuplicate = function(nums, k, t) {
+  const lenNums = nums.length;
 
   for (let i = 0; i < lenNums; i++) {
     for (let j = i; j < lenNums; j++) {
       if (i !== j && Math.abs(nums[i] - nums[j]) <= t && Math.abs(i - j) <= k) {
-        return true
+        return true;
       }
     }
   }
 
-  return false
-}
+  return false;
+};

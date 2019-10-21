@@ -6,26 +6,26 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersection = function (nums1, nums2) {
-  let bigger
-  let smaller
+var intersection = function(nums1, nums2) {
+  let bigger;
+  let smaller;
   if (nums1.length > nums2.length) {
-    bigger = nums1
-    smaller = nums2
+    bigger = nums1;
+    smaller = nums2;
   } else {
-    bigger = nums2
-    smaller = nums1
+    bigger = nums2;
+    smaller = nums1;
   }
 
-  let result = []
+  let result = [];
 
   for (let i = 0; i < smaller.length; i++) {
     if (bigger.indexOf(smaller[i]) !== -1) {
       if (result.indexOf(smaller[i]) === -1) {
-        result.push(smaller[i])
+        result.push(smaller[i]);
       }
     }
   }
 
-  return result
-}
+  return result;
+};

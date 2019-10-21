@@ -6,30 +6,30 @@
  * @param {string} t
  * @return {boolean}
  */
-var isAnagram = function (s, t) {
+var isAnagram = function(s, t) {
   const breakLetters = word => {
-    let result = {}
+    let result = {};
     for (let i = 0; i < word.length; i++) {
       if (!result[word[i]]) {
-        result[word[i]] = 1
+        result[word[i]] = 1;
       } else {
-        result[word[i]]++
+        result[word[i]]++;
       }
     }
 
-    return result
-  }
+    return result;
+  };
 
-  let lettersS = breakLetters(s)
-  let lettersT = breakLetters(t)
+  let lettersS = breakLetters(s);
+  let lettersT = breakLetters(t);
 
   if (Object.keys(lettersS).length !== Object.keys(lettersT).length) {
-    return false
+    return false;
   }
 
   for (let key in lettersS) {
-    if (lettersS[key] !== lettersT[key]) return false
+    if (lettersS[key] !== lettersT[key]) return false;
   }
 
-  return true
-}
+  return true;
+};

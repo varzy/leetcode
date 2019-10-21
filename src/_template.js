@@ -3,4 +3,4 @@
 
 // workspace
 
-console.log()
+console.log();
