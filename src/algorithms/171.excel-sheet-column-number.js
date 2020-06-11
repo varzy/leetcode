@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/excel-sheet-column-number/
-// Updated At: 2018-02-23
 
 /**
  * @param {string} s

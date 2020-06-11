@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/longest-common-prefix/
-// Updated At: 2018-02-12
 
 /**
  * @param {string[]} strs

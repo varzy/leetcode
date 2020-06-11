@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/detect-capital/
-// Updated At: 2018-03-14
 
 /**
  * @param {string} word

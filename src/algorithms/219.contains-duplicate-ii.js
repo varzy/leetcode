@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/contains-duplicate-ii/
-// Updated At: 2018-02-28
 
 /**
  * @param {number[]} nums

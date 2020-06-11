@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/reverse-integer/
-// Updated At: 2018-02-12
 
 /**
  * @param {number} x

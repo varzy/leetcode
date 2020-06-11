@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/maximum-69-number/
-// Updated At: 2020-05-22
 
 /**
  * @param {number} num

@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/climbing-stairs/
-// Updated At: 2019-01-13
 
 /**
  * 本质是斐波那契数列问题

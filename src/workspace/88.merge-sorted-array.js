@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/merge-sorted-array/
-// Updated At: YEAR-MONTH-DAY
 
 /**
  * @param {number[]} nums1

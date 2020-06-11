@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/maximum-product-of-three-numbers/
-// Updated At: YEAR-MONTH-DAY
 
 /**
  * @param {number[]} nums

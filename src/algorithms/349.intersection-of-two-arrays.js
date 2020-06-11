@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/intersection-of-two-arrays/
-// Updated At: 2018-03-14
 
 /**
  * @param {number[]} nums1

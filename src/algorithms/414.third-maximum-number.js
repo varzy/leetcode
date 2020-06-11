@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/third-maximum-number/
-// Updated At: 2018-03-14
 
 /**
  * @param {number[]} nums

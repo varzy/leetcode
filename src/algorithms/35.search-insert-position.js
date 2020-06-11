@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/search-insert-position/
-// Updated At: 2018-02-24
 
 /**
  * @param {number[]} nums

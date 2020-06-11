@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/judge-route-circle/
-// Updated At: 2018-02-28
 
 /**
  * @param {string} moves

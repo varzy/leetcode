@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/fizz-buzz/
-// Updated At: 2018-02-23
 
 /**
  * @param {number} n

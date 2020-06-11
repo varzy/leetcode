@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/zigzag-conversion/
-// Updated At: 2019-01-13
 
 /**
  * 拼凑出一个符合要求的 Z 型二维数组，然后对其进行过滤和组装

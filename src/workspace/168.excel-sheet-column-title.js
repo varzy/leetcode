@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/excel-sheet-column-title/
-// Updated At: YEAR-MONTH-DAY
 
 /**
  * @param {number} n

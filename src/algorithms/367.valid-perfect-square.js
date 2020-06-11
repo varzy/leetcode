@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/valid-perfect-square/
-// Updated At: 2018-02-28
 
 /**
  * @param {number} num

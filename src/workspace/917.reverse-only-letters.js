@@ -1,3 +1,5 @@
+// Source: https://leetcode.com/problems/reverse-only-letters/
+
 /**
  * @param {string} S
  * @return {string}
@@ -21,3 +23,5 @@ var reverseOnlyLetters = function (S) {
 
   return result.join('');
 };
+
+console.log(reverseOnlyLetters('Q123e1!sdaf0-1@sd'));

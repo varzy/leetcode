@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/power-of-two/
-// Updated At: 2019-01-13
 
 /**
  * @param {number} n

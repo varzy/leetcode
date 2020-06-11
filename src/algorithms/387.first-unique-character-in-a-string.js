@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/first-unique-character-in-a-string/
-// Updated At: 2018-02-24
 
 /**
  * @param {string} s

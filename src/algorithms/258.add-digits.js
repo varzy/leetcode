@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/add-digits/
-// Updated At: 2018-02-23
 
 /**
  * @param {number} num

@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/keyboard-row/
-// Updated At: 2018-02-24
 
 /**
  * @param {string[]} words

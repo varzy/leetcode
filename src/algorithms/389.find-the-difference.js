@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/find-the-difference/
-// Updated At: 2018-02-23
 
 /**
  * @param {string} s

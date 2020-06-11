@@ -1,5 +1,4 @@
 // Source: https://leetcode.com/problems/plus-one/
-// Updated At: 2019-01-13
 
 /**
  * [9]    => [1, 0]
