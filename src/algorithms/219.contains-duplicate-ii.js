@@ -6,7 +6,7 @@
  * @param {number} k
  * @return {boolean}
  */
-var containsNearbyDuplicate = function(nums, k) {
+var containsNearbyDuplicate = function (nums, k) {
   const lenNums = nums.length;
 
   for (let i = 0; i < lenNums; i++) {

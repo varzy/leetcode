@@ -2,7 +2,7 @@
  * @param {string} S
  * @return {string}
  */
-var reverseOnlyLetters = function(S) {
+var reverseOnlyLetters = function (S) {
   const result = [];
   const letters = S.split('').filter(item => {
     const ascii = item.toUpperCase().charCodeAt();

@@ -8,7 +8,7 @@
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function(digits) {
+var plusOne = function (digits) {
   digits[digits.length - 1]++;
   for (let i = digits.length; i > 0; i--) {
     if (digits[i] === 10) {

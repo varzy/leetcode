@@ -5,7 +5,7 @@
  * @param {number[][]} triangle
  * @return {number}
  */
-var minimumTotal = function(triangle) {
+var minimumTotal = function (triangle) {
   return triangle.reduce((sum, item) => (sum += Math.min(...item)), 0);
 };
 

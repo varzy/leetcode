@@ -5,7 +5,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var findMaxConsecutiveOnes = function(nums) {
+var findMaxConsecutiveOnes = function (nums) {
   let max = 0;
   let currentMax = 0;
 

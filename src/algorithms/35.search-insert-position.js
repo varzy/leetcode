@@ -6,7 +6,7 @@
  * @param {number} target
  * @return {number}
  */
-var searchInsert = function(nums, target) {
+var searchInsert = function (nums, target) {
   const findResult = nums.findIndex(item => item === target);
 
   if (findResult !== -1) return findResult;

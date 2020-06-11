@@ -5,7 +5,7 @@
  * @param {string} s
  * @return {number}
  */
-var titleToNumber = function(s) {
+var titleToNumber = function (s) {
   let control = {
     A: 1,
     B: 2,
@@ -32,14 +32,11 @@ var titleToNumber = function(s) {
     W: 23,
     X: 24,
     Y: 25,
-    Z: 26
+    Z: 26,
   };
 
   let arr = s.split('').reverse();
   let sum = 0;
 
-  return arr.reduce(
-    (sum, item, index) => sum + Math.pow(26, index) * control[arr[index]],
-    0
-  );
+  return arr.reduce((sum, item, index) => sum + Math.pow(26, index) * control[arr[index]], 0);
 };

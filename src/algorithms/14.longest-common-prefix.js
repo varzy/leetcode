@@ -5,7 +5,7 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function(strs) {
+var longestCommonPrefix = function (strs) {
   if (strs.length === 0) return '';
   if (strs.length === 1) return strs[0];
 

@@ -5,7 +5,7 @@
  * @param {number} n
  * @return {string[]}
  */
-var fizzBuzz = function(n) {
+var fizzBuzz = function (n) {
   let arr = [];
 
   for (let i = 1; i <= n; i++) {

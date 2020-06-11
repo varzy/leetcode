@@ -7,7 +7,7 @@
  * @param {string} s
  * @return {number}
  */
-var numDecodings = function(s) {
+var numDecodings = function (s) {
   let result = 0;
   for (let i = 1; i <= s.length; i++) {
     const lPart = s.substring(0, i);

@@ -6,7 +6,7 @@
  * @param {string} t
  * @return {boolean}
  */
-var isAnagram = function(s, t) {
+var isAnagram = function (s, t) {
   const breakLetters = word => {
     let result = {};
     for (let i = 0; i < word.length; i++) {

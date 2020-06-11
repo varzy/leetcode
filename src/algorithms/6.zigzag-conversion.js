@@ -8,7 +8,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function(s, numRows) {
+var convert = function (s, numRows) {
   if (numRows === 1) return s;
 
   const groupLen = numRows * 2 - 2;
@@ -25,8 +25,7 @@ var convert = function(s, numRows) {
       if (j < numRows) {
         table[j][i * (numRows - 1)] = s[i * groupLen + j];
       } else {
-        table[groupLen - j][(i + 1) * (numRows - 1) - (groupLen - j)] =
-          s[i * groupLen + j];
+        table[groupLen - j][(i + 1) * (numRows - 1) - (groupLen - j)] = s[i * groupLen + j];
       }
     }
   }

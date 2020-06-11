@@ -6,7 +6,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersection = function(nums1, nums2) {
+var intersection = function (nums1, nums2) {
   let bigger;
   let smaller;
   if (nums1.length > nums2.length) {

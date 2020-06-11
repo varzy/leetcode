@@ -5,7 +5,7 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
+var romanToInt = function (s) {
   const control = {
     I: 1,
     V: 5,
@@ -13,7 +13,7 @@ var romanToInt = function(s) {
     L: 50,
     C: 100,
     D: 500,
-    M: 1000
+    M: 1000,
   };
 
   let sum = 0;

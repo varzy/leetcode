@@ -5,7 +5,7 @@
  * @param {number} n
  * @return {string}
  */
-var convertToTitle = function(n) {
+var convertToTitle = function (n) {
   let rate = Math.floor(n / 26);
   let remainder = n % 26;
 

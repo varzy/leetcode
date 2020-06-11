@@ -5,7 +5,7 @@
  * @param {string} moves
  * @return {boolean}
  */
-var judgeCircle = function(moves) {
+var judgeCircle = function (moves) {
   const position = [0, 0];
   moves.split('').map(item => {
     if (item === 'L') position[0]--;

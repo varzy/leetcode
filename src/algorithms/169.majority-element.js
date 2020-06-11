@@ -5,7 +5,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var majorityElement = function(nums) {
+var majorityElement = function (nums) {
   const target = nums.length / 2;
   let temp = {};
 

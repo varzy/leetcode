@@ -5,12 +5,10 @@
  * @param {number} num
  * @return {number}
  */
-var maximum69Number = function(num) {
+var maximum69Number = function (num) {
   const str = num + '';
   const len = str.length;
-  let maxNum = Array.from({ length: len })
-    .fill(9)
-    .join('');
+  let maxNum = Array.from({ length: len }).fill(9).join('');
 
   const flipped = [];
   for (let i = 0; i < len; i++) {

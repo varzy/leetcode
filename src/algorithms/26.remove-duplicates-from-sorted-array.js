@@ -5,7 +5,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
+var removeDuplicates = function (nums) {
   nums.unshift(false);
 
   for (let i = 1; i < nums.length; i++) {

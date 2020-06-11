@@ -6,7 +6,7 @@
  * @param {string} t
  * @return {character}
  */
-var findTheDifference = function(s, t) {
+var findTheDifference = function (s, t) {
   const arrS = s.split('').sort();
   const arrT = t.split('').sort();
 
