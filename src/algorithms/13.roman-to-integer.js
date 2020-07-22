@@ -12,17 +12,20 @@ var romanToInt = function (s) {
     L: 50,
     C: 100,
     D: 500,
-    M: 1000,
+    M: 1000
   };
 
   let sum = 0;
 
-  // for (let i = 1; i < s; i++) {
-  //   const isSpecial = s[i] === 'I' && (s[i - 1] === 'V' || s[i - 1] === 'X')
-  //   if (s[i - 1])
-  // }
+  s.split('').forEach((item, index) => {
+    if (s[index + 1] && control[item] < control[s[index + 1]]) {
+      sum -= control[item];
+    } else {
+      sum += control[item];
+    }
+  });
 
-  return control;
+  return sum;
 };
 
 console.log(romanToInt('MCMXCIV'));

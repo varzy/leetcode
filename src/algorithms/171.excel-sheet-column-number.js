@@ -31,7 +31,7 @@ var titleToNumber = function (s) {
     W: 23,
     X: 24,
     Y: 25,
-    Z: 26,
+    Z: 26
   };
 
   let arr = s.split('').reverse();
